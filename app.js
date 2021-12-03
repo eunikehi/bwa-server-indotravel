@@ -8,7 +8,7 @@ const session = require('express-session');
 const flash = require('connect-flash');
 // import mongoose
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/db_bwamern', {
+mongoose.connect('mongodb://eunike:bwamern@cluster0-shard-00-00.bwd9s.mongodb.net:27017,cluster0-shard-00-01.bwd9s.mongodb.net:27017,cluster0-shard-00-02.bwd9s.mongodb.net:27017/db_indotravel?ssl=true&replicaSet=atlas-2poh7a-shard-0&authSource=admin&retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,

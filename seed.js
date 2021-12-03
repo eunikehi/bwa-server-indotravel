@@ -2,7 +2,7 @@ var seeder = require('mongoose-seed');
 var mongoose = require('mongoose');
 
 // Connect to MongoDB via Mongoose
-seeder.connect('mongodb://localhost:27017/db_bwamern', {
+seeder.connect('mongodb://eunike:bwamern@cluster0-shard-00-00.bwd9s.mongodb.net:27017,cluster0-shard-00-01.bwd9s.mongodb.net:27017,cluster0-shard-00-02.bwd9s.mongodb.net:27017/db_indotravel?ssl=true&replicaSet=atlas-2poh7a-shard-0&authSource=admin&retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useCreateIndex: true,
   useFindAndModify: true,
