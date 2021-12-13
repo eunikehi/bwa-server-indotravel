@@ -50,9 +50,9 @@ module.exports = {
         imageUrl: "images/testimonial2.jpg",
         name: "Happy Family",
         rate: 4.55,
-        content: "What a great trip with my family and I should try again next time soon ...",
-        familyName: "Angga",
-        familyOccupation: "Product Designer"
+        content: "As a husband, I can pick a great trip with my own family ... thank you ",
+        familyName: "Lexax",
+        familyOccupation: "Front End Developer"
       }
 
       res.status(200).json({
@@ -87,8 +87,8 @@ module.exports = {
         name: "Happy Family",
         rate: 4.55,
         content: "What a great trip with my family and I should try again next time soon ...",
-        familyName: "Angga",
-        familyOccupation: "Product Designer"
+        familyName: "Megumi",
+        familyOccupation: "UI Designer"
       }
 
       res.status(200).json({
